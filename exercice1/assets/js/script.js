@@ -1,6 +1,6 @@
 $(function(){
-  var c = document.getElementById("housecanvas");
-  var ctx = c.getContext("2d");
+  var c = document.getElementById('housecanvas');
+  var ctx = c.getContext('2d');
 
 
   ctx.beginPath();
@@ -9,7 +9,7 @@ $(function(){
   ctx.lineTo(300,300);
   ctx.lineTo(300,100);
   ctx.closePath();
-  ctx.fillStyle = "lightblue";
+  ctx.fillStyle = 'lightblue';
   ctx.fill();
   ctx.stroke();
 
@@ -18,7 +18,7 @@ $(function(){
   ctx.lineTo(200,10);
   ctx.lineTo(300,100);
   ctx.closePath();
-  ctx.fillStyle = "#d7823e";
+  ctx.fillStyle = '#d7823e';
   ctx.fill();
   ctx.stroke();
 
@@ -38,7 +38,7 @@ $(function(){
   ctx.lineTo(220,200);
   ctx.lineTo(220,300);
   ctx.closePath();
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = 'grey';
   ctx.fill();
   ctx.stroke();
 });

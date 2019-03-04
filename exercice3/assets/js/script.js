@@ -1,6 +1,6 @@
 $(function(){
-  var c = document.getElementById("carcanvas");
-  var ctx = c.getContext("2d");
+  var c = document.getElementById('carcanvas');
+  var ctx = c.getContext('2d');
 
 
   ctx.beginPath();
@@ -13,14 +13,14 @@ $(function(){
   ctx.lineTo(150,150);
   ctx.lineTo(100,150);
   ctx.closePath();
-  ctx.fillStyle = "#00a551";
+  ctx.fillStyle = '#00a551';
   ctx.fill();
   ctx.stroke();
 
   ctx.beginPath();
   ctx.arc(130,230,30,0,Math.PI*2,true);
   ctx.closePath();
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = 'grey';
   ctx.fill();
   ctx.stroke();
 
@@ -28,7 +28,7 @@ $(function(){
   ctx.beginPath();
   ctx.arc(270,230,30,0,Math.PI*2,true);
   ctx.closePath();
-  ctx.fillStyle = "grey";
+  ctx.fillStyle = 'grey';
   ctx.fill();
   ctx.stroke();
 });
